@@ -6,3 +6,9 @@ export const HOME = "/";
 export const ABOUT = "/about/:slug";
 
 export const ADMIN = "/admin";
+
+export const NOSOTROS = "/nosotros/:slug";
+
+export const SERVICIOS = "/servicios/:slug";
+
+export const CONTACTO = "/contacto/:slug";
