@@ -5,11 +5,6 @@ const Home = () => {
   const [values, setValues] = useState({
     name: "",
     email: "",
-    lastname: "",
-    phone: "",
-    address: "",
-    dni: "",
-    status: "",
   });
 
   const handleInputChange = (event) => {
@@ -48,51 +43,6 @@ const Home = () => {
               name="name"
               fullWidth
               value={values.name}
-              onChange={handleInputChange}
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              label="Ingrese su apellido"
-              name="lastname"
-              fullWidth
-              value={values.lastname}
-              onChange={handleInputChange}
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              label="Ingrese su telefono"
-              name="phone"
-              fullWidth
-              value={values.phone}
-              onChange={handleInputChange}
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              label="Ingrese su direccion"
-              name="address"
-              fullWidth
-              value={values.address}
-              onChange={handleInputChange}
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              label="Ingrese su dni"
-              name="dni"
-              fullWidth
-              value={values.dni}
-              onChange={handleInputChange}
-            />
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <TextField
-              label="Ingrese su estado"
-              name="status"
-              fullWidth
-              value={values.status}
               onChange={handleInputChange}
             />
           </Grid>
