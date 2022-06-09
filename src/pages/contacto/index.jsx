@@ -4,7 +4,7 @@ const Contact = () => {
   const { slug } = useParams();
   return (
     <div>
-      <h1>Contactanos</h1>
+      <h1>Contactanos DESARROLLO</h1>
       <p>Comuniquenos atraves de: {slug}</p>
     </div>
   );

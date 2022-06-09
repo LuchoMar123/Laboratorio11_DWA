@@ -4,7 +4,7 @@ const Service = () => {
   const { slug } = useParams();
   return (
     <div>
-      <h1>Servicios</h1>
+      <h1>Servicios DESARROLLO</h1>
       <p>Aqui mostramos servicios como: {slug}</p>
     </div>
   );

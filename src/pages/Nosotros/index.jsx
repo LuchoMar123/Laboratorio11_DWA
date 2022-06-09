@@ -4,7 +4,7 @@ const Us = () => {
   const { slug } = useParams();
   return (
     <div>
-      <h1>Nosotros</h1>
+      <h1>Nosotros DESARROLLO</h1>
       <p>Esta pagina de nosotros trata sobre: {slug}</p>
     </div>
   );
